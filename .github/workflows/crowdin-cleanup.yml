@@ -41,7 +41,7 @@ jobs:
         run: script/i18n/homogenize-frontmatter.js
 
       - name: Check in homogenized files
-        uses: EndBug/add-and-commit@8c12ff729a98cfbcd3fe38b49f55eceb98a5ec02
+        uses: EndBug/add-and-commit@a94899bca583c204427a224a7af87c02f9b325d5
         with:
           # The arguments for the `git add` command
           add: 'translations'
